@@ -13,7 +13,7 @@ const AvailableMeals = () => {
 
   useEffect (() => {
     const fetchMeals = async()=> {
-      const response = await fetch('https://react---http-c4060-default-rtdb.firebaseio.com/meals.json');
+      const response = await fetch('https://food-order-app-5f619-default-rtdb.firebaseio.com/meals.json');
  
       if (!response.ok) {
         throw new Error('This Page Is Not Available Right Now.This may be because of a technical error that we are working to get fixed. Try reloading this page.')
