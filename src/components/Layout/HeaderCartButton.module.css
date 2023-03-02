@@ -42,6 +42,9 @@
   .bump {
     animation: bump 300ms ease-out;
   }
+  .yourCart {
+    color: white;
+  }
   
   @keyframes bump {
     0% {
@@ -59,4 +62,10 @@
     100% {
       transform: scale(1);
     }
+  }
+
+  @media (max-width: 500px) {
+  .yourCart {
+    display: none;
+  }
   }
